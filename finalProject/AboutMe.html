@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Abdulkhaliq portofolio</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .container {
+        margin-top: 30;
+      }
+      h1,
+      h2,
+      p {
+        margin-top: 20px;
+
+        color: white;
+      }
+
+      .profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .profile img {
+        max-width: 40%;
+        border-radius: 50%;
+      }
+
+      .description {
+        flex: 1;
+        padding-left: 20px;
+      }
+
+      /* Responsive styles */
+      @media screen and (max-width: 600px) {
+        .profile {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./coding.png" class="logo" width="40px" height="40px" />
+      </a>
+      <nav class="navigation">
+        <a href="./index.html">services</a>
+        <a href="./index.html">projects</a>
+        <a href="./contact.html">contact</a>
+        <a href="./AboutMe.html">About Me</a>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="profile">
+        <img src="./webdevv.png" alt="Profile Picture" />
+        <div class="description">
+          <h2>Abdulkhaliq Qadir</h2>
+          <p>
+            Hello! I'm Abdulkhaliq Qadir, a web developer from New Shaqlawa. I
+            have a passion for designing and developing websites that are both
+            aesthetically pleasing and functionally robust. In my free time, I
+            love hiking, reading, and exploring new technologies.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white pt-4" style="background-color: #bb57be">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Us here -->
+          <div class="col-md-6">
+            <h5>Contact Us</h5>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123 456 7890</p>
+          </div>
+
+          <!-- Social Media Icons here -->
+          <div class="col-md-6 text-md-right text-center">
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2023 . All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

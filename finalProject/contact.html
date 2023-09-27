@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Abdulkhaliq portofolio</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <style>
+      header {
+        background-color: #282832;
+        width: 100%;
+
+        display: flex;
+        background-color: #bb57be;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px 10px 20px;
+      }
+
+      .logo {
+        text-decoration: none;
+        color: #fb6979;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em;
+      }
+      /*navbar*/
+      .navigation a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        margin-left: 30px;
+      }
+      .navigation a:hover,
+      .logo:hover {
+        color: white;
+        text-decoration: underline;
+        font-size: 20px;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      form {
+        width: 100%;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea,
+      button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+      footer {
+        width: 100%;
+        padding: 40px;
+      }
+      /* Responsive styles */
+      @media screen and (max-width: 600px) {
+        .profile {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">
+        <img src="./coding.png" class="logo" width="40px" height="40px" />
+      </a>
+      <nav class="navigation">
+        <a href="./index.html">services</a>
+        <a href="./index.html">projects</a>
+        <a href="./contact.html">contact</a>
+        <a href="./AboutMe.html">About Me</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+    <footer class="text-white pt-4" style="background-color: #bb57be">
+      <div>
+        <div class="row">
+          <!-- Contact Us here -->
+          <div class="col-md-6">
+            <h5>Contact Us</h5>
+            <p>Email: example@example.com</p>
+            <p>Phone: +123 456 7890</p>
+          </div>
+
+          <!-- Social Media Icons here -->
+          <div class="col-md-6 text-md-right text-center">
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="text-white mr-3"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2023 . All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

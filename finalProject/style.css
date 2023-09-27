@@ -1,0 +1,215 @@
+	/*colors used in this style are #AFDFD5 #F1B1D6 #FB6979 #642C66 #000 #fff and shades of grey*/
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	*{
+	  font-family: 'poppins', sans-serif;
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box;
+	  scroll-behavior: smooth;
+	}
+	/*header start*/
+	header {
+	  background-color: #282832;
+	 width: 100%;
+	  position: fixed;
+	  z-index: 99999;
+	  display: flex;
+	  background-color: #bb57be;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 10px 20px 10px 20px;
+	}
+	/*page logo*/
+	.logo {
+	  text-decoration: none;
+	  color: #fb6979;
+	  text-transform: uppercase;
+	  font-weight: 700;
+	  font-size: 1.8em;
+	
+	}
+	/*navbar*/
+	.navigation a{
+	  color: white;
+	  text-decoration: none;
+	  font-size: 1.1em;
+	  font-weight: 500;
+	  margin-left: 30px;
+	}
+	.navigation a:hover , .logo:hover{
+	 color: white;
+	  text-decoration: underline;
+	  font-size: 20px;
+	 
+	}
+	/*header end*/
+	/*all section tag styles*/
+	section {
+	  padding: 100px 200px;
+	}
+	/*main section start*/
+	.main {
+	  width: 100%;
+	  min-height: 100vh;
+	  display: flex;
+	  align-items: center;
+	  background-color: #642c66;
+	}
+	/*first heading*/
+	.main h2 {
+	  color: #fff;
+	  font-size: 1.4em;
+	  font-weight: 500;
+	}
+	.main h2 span {
+	  color:#fb6979;
+	  display: inline-block;
+	  margin-top: 10px;
+	  font-size: 3em;
+	  font-weight: 600;
+	}
+	/*second heading*/
+	.main h3 {
+	  color: #fff;
+	  font-size: 2em;
+	  font-weight: 700;
+	  letter-spacing: 1px;
+	  margin-top: 10px;
+	  margin-bottom: 30px;
+	}
+	/*view my work button*/
+	.main-btn {
+	  color: #fff;
+	  background: #fb6979;
+	  text-decoration: none;
+	  font-size: 1.1em;
+	  font-weight: 600;
+	  display: inline-block;
+	  padding: 0.9375em 2.1875em;
+	  letter-spacing: 1px;
+	  border-radius: 15px;
+	  margin-bottom: 40px;
+	  transition: 0.7s ease;
+	}
+	.main-btn:hover {
+	  background-color: #d00;
+	  transform: scale(1.1);
+	}
+	/*social media icons style*/
+	.social-icons a {
+	  display: inline-block;
+	  color: #fff;
+	  font-size: 1.7em;
+	  margin-right: 30px;
+	  transition: 0.7s ease;
+	}
+	/*social media icons hover*/
+	.social-icons a:hover {
+	  transform: scale(1.2);
+	}
+	.social-icons .twitter:hover {
+	  color:#00acee;
+	}
+	.social-icons .linkedin:hover {
+	  color:#0077b5;
+	}
+	.social-icons .facebook:hover {
+	  color:#4267B2;
+	}
+	.social-icons .instagram:hover {
+	  color: #dd2a7b;
+	}
+	.social-icons .youtube:hover {
+	  color: #f00;
+	}
+	/*main section end*/
+	/*services section start*/
+	/*servicies title*/
+	.title {
+	  display: flex;
+	  justify-content: center;
+	  color: #fb6979;
+	  font-size: 2.2em;
+	  font-weight: 800;
+	  margin-bottom: 30px;
+	}
+	/*services content(cards)*/
+	.content {
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	}
+	.card {
+	  background-color: #fff;
+	  width: 21.25em;
+	  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+	  border-radius: 10px;
+	  padding: 25px;
+	  margin: 15px;
+	  transition: 0.7s ease;
+	}
+	.card:hover {
+	  transform: scale(1.1);
+	}
+	.card-icon {
+	  color: #fb6979;
+	  font-size: 8em;
+	  text-align: center;
+	}
+	.info {
+	text-align:center;
+	text-justify: distribute;
+		
+	}
+	.info h3 {
+	  color: #fb6979;
+	  font-size: 1.2em;
+	  font-weight: 700;
+	  margin: 10px;
+	}
+	/*services section end*/
+	
+	/*media queries*/
+	@media (max-width:1023px){
+	  body {
+	 font-size: 14px;
+	  }
+	  header{
+	 padding:12px 20px;
+	  }
+	  .navigation a {
+	 margin-left: 10px
+	  }
+	  .title {
+	 font-size: 1.8em;
+	  }
+	  section {
+	 padding: 80px 20px;
+	  }
+	  .main-content h2 {
+	 font-size: 1em;
+	  }
+	  .main-content h3 {
+	 font-size: 1.6em;
+	  }
+	}
+	@media (max-width:641px){
+	  body {
+	 font-size: 12px;
+	  }
+	  .main-content h2 {
+	 font-size: 0.8em;
+	  }
+	  .main-content h3 {
+	 font-size: 1.4em;
+	  }
+	}
+	@media (max-width:300px) {
+	  body {
+	 font-size: 10px;
+	  }
+	}
+
+	
+	
